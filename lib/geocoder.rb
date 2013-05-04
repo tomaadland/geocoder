@@ -8,6 +8,7 @@ require "geocoder/lookup"
 require "geocoder/models/active_record" if defined?(::ActiveRecord)
 require "geocoder/models/mongoid" if defined?(::Mongoid)
 require "geocoder/models/mongo_mapper" if defined?(::MongoMapper)
+require "geocoder/models/neo4j" if defined?(::Neo4j)
 
 module Geocoder
   extend self
